@@ -31,21 +31,6 @@ Here are some ideas to get you started:
 
 
 <!DOCTYPE html>
-}
-.cell:hover { background-color: #a1a1a1; }
-/* corners */
-.cell::before, .cell::after {
-content: "";
-height: 2px;
-width: 2px;
-background-color: #8b8b8b;
-position: absolute;
-top: 0;
-right: 0;
-}
-.cell::after { top: auto; right: auto; left: 0; bottom: 0; }
-</style>
-</head>
 <body>
 <div class="mc-gui">
 <!-- sides -->
@@ -107,4 +92,3 @@ right: 0;
 </div>
 </body>
 </html>
-
