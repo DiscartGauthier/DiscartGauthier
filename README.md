@@ -29,3 +29,131 @@ Here are some ideas to get you started:
 </p>
 
 
+
+<!DOCTYPE html>
+
+<!-- bottom left -->
+<div class="tr-bl s-bl"></div>
+
+<!-- top right -->
+<div class="bl-tr s-tr"></div>
+
+<!-- bottom right -->
+<div class="tl-br"></div>
+<div class="tr-br s-br"></div>
+<div class="bl-br s-br"></div>
+<div class="br-br"></div>
+
+<!-- actual inventory -->
+<div class="inventory middle">
+<div class="top">
+<div class="armor">
+<div class="cell helmet"></div>
+<div class="cell chest"></div>
+<div class="cell leggings"></div>
+<div class="cell boots"></div>
+</div>
+<div class="character cell"></div>
+<div class="cell left"></div>
+<div class="crafting"></div>
+</div>
+<div class="middle">
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+</div>
+<div class="bottom">
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+body, html {
+
+.inventory .top .character {
+background-color: black;
+width: 5.7rem;
+height: 100%;
+box-sizing: border-box;
+}
+
+.inventory .top .crafting { flex: 1; }
+
+/* middle for standard inventory items */
+.inventory .middle {
+display: grid;
+grid-template-columns: repeat(9, auto);
+}
+
+/* bottom, hotbar */
+.inventory .bottom {
+display: grid;
+grid-template-columns: repeat(9, auto);
+}
+
+/* ---------------- grid cell ---------------- */
+.cell {
+box-shadow: inset 2px 2px 0 0 #373737, inset -2px -2px 0 0 #ffffff;
+background-color: #8b8b8b;
+height: 2rem;
+width: 2rem;
+position: relative;
+}
+
+.cell:hover { background-color: #a1a1a1; }
+
+/* corners */
+.cell::before,
+.cell::after {
+content: "";
+height: 2px;
+width: 2px;
+background-color: #8b8b8b;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.cell::after {
+top: auto;
+right: auto;
+left: 0;
+bottom: 0;
+}
+
+
