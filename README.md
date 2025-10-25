@@ -31,6 +31,34 @@ Here are some ideas to get you started:
 
 
 <!DOCTYPE html>
+}
+.cell:hover { background-color: #a1a1a1; }
+/* corners */
+.cell::before, .cell::after {
+content: "";
+height: 2px;
+width: 2px;
+background-color: #8b8b8b;
+position: absolute;
+top: 0;
+right: 0;
+}
+.cell::after { top: auto; right: auto; left: 0; bottom: 0; }
+</style>
+</head>
+<body>
+<div class="mc-gui">
+<!-- sides -->
+<div class="left"></div>
+<div class="right"></div>
+<div class="bottom"></div>
+<div class="top"></div>
+
+<!-- top left -->
+<div class="tl-tl"></div>
+<div class="tr-tl s-tl"></div>
+<div class="bl-tl s-tl"></div>
+<div class="br-tl"></div>
 
 <!-- bottom left -->
 <div class="tr-bl s-bl"></div>
@@ -58,102 +86,25 @@ Here are some ideas to get you started:
 <div class="crafting"></div>
 </div>
 <div class="middle">
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
 </div>
 <div class="bottom">
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
-<div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div>
 </div>
 </div>
 </div>
 </body>
 </html>
-
-
-body, html {
-
-.inventory .top .character {
-background-color: black;
-width: 5.7rem;
-height: 100%;
-box-sizing: border-box;
-}
-
-.inventory .top .crafting { flex: 1; }
-
-/* middle for standard inventory items */
-.inventory .middle {
-display: grid;
-grid-template-columns: repeat(9, auto);
-}
-
-/* bottom, hotbar */
-.inventory .bottom {
-display: grid;
-grid-template-columns: repeat(9, auto);
-}
-
-/* ---------------- grid cell ---------------- */
-.cell {
-box-shadow: inset 2px 2px 0 0 #373737, inset -2px -2px 0 0 #ffffff;
-background-color: #8b8b8b;
-height: 2rem;
-width: 2rem;
-position: relative;
-}
-
-.cell:hover { background-color: #a1a1a1; }
-
-/* corners */
-.cell::before,
-.cell::after {
-content: "";
-height: 2px;
-width: 2px;
-background-color: #8b8b8b;
-position: absolute;
-top: 0;
-right: 0;
-}
-
-.cell::after {
-top: auto;
-right: auto;
-left: 0;
-bottom: 0;
-}
-
 
