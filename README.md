@@ -31,9 +31,6 @@ Here are some ideas to get you started:
 
 
 <!DOCTYPE html>
-<body>
-<div class="mc-gui">
-<!-- sides -->
 <div class="left"></div>
 <div class="right"></div>
 <div class="bottom"></div>
