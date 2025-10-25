@@ -30,62 +30,28 @@ Here are some ideas to get you started:
 
 
 
-<!DOCTYPE html>
-<div class="left"></div>
-<div class="right"></div>
-<div class="bottom"></div>
-<div class="top"></div>
+<p align="center">
+  <img src="logo.png" width="140" alt="Logo" />
+</p>
 
-<!-- top left -->
-<div class="tl-tl"></div>
-<div class="tr-tl s-tl"></div>
-<div class="bl-tl s-tl"></div>
-<div class="br-tl"></div>
+<details>
+  <summary>Voir plus</summary>
 
-<!-- bottom left -->
-<div class="tr-bl s-bl"></div>
+  - Point 1
+  - Point 2
+</details>
 
-<!-- top right -->
-<div class="bl-tr s-tr"></div>
+<table>
+  <tr><th>Col A</th><th>Col B</th></tr>
+  <tr><td>Texte</td><td>Texte</td></tr>
+</table>
 
-<!-- bottom right -->
-<div class="tl-br"></div>
-<div class="tr-br s-br"></div>
-<div class="bl-br s-br"></div>
-<div class="br-br"></div>
+Appuyez sur <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
-<!-- actual inventory -->
-<div class="inventory middle">
-<div class="top">
-<div class="armor">
-<div class="cell helmet"></div>
-<div class="cell chest"></div>
-<div class="cell leggings"></div>
-<div class="cell boots"></div>
-</div>
-<div class="character cell"></div>
-<div class="cell left"></div>
-<div class="crafting"></div>
-</div>
-<div class="middle">
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+![build](https://img.shields.io/github/actions/workflow/status/USER/REPO/ci.yml)
 
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo-dark.svg">
+  <img alt="Logo" src="logo-light.svg" width="160">
+</picture>
 
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-</div>
-<div class="bottom">
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-<div class="cell"></div><div class="cell"></div><div class="cell"></div>
-</div>
-</div>
-</div>
-</body>
-</html>
