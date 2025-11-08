@@ -58,6 +58,8 @@ Appuyez sur <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
 ![test](https://github.com/user-attachments/assets/72e60f4b-a4eb-4d8a-8574-4ff1aa235796)
 
+<img width="1920" height="780" alt="minecraft-stats-1762633729985" src="https://github.com/user-attachments/assets/36ee60f4-cb57-4455-a049-a10f5039d061" />
+
 
 
 
