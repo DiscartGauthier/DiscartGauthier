@@ -8,3 +8,5 @@ Check Those Stat My bro
 <p align="center">
   <img src="https://raw.githubusercontent.com/DiscartGauthier/DiscartGauthier/main/dist/miner.svg" width="900" />
 </p>
+
+Test
