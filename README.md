@@ -1,4 +1,10 @@
 ## Hey Judes
 
 Check Those Stat My bro
-<img width="1920" height="622" alt="minecraft-stats-1762699531747" src="minecraft-stats.png" />
+<p align="center">
+  <img width="1920" height="622" alt="minecraft-stats-1762699531747" src="minecraft-stats.png" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DiscartGauthier/DiscartGauthier/main/dist/miner.svg" width="900" />
+</p>
