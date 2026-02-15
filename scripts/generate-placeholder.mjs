@@ -19,15 +19,11 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
   </style>
 
   <rect x="0" y="0" width="900" height="220" rx="18" fill="#0d1117"/>
-  <text x="24" y="54" font-size="28" fill="#c9d1d9">⛏️ Minecraft miner (placeholder)</text>
+  <text x="24" y="54" font-size="28" fill="#c9d1d9">⛏️ Minecraft miner (placeholder) Anim test</text>
   <text x="24" y="92" font-size="16" fill="#8b949e">Dernière génération: ${now}</text>
 
   <rect x="24" y="140" width="180" height="18" rx="9" fill="#21262d"/>
   <circle class="dot" cx="33" cy="149" r="9" fill="#58a6ff"/>
-
-  <text x="24" y="190" font-size="14" fill="#8b949e">
-    Étape suivante: on remplace ce SVG par le vrai rendu (GIF d'abord, puis SVG).
-  </text>
 </svg>
 `;
 
