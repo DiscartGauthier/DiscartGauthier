@@ -1,5 +1,2 @@
 .DS_STORE
 Thumbs.db
-.env
-config.json
-./script/config.js
