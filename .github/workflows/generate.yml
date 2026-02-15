@@ -23,13 +23,17 @@ jobs:
       - name: Generate placeholder
         run: |
           npm run generate
+          echo "---- dist listing ----"
+          ls -la dist || true
+          echo "---- git status ----"
+          git status --porcelain
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
             exit 0
           fi
