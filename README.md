@@ -2,7 +2,7 @@
 
 Check Those Stat My bro
 <p align="center">
-  <img width="1920" height="622" alt="minecraft-stats-1762699531747" src="minecraft-stats.png" />
+  <img width="1920" height="622" alt="minecraft-stats" src="https://raw.githubusercontent.com/DiscartGauthier/MinecraftGitProfile/main/exports/minecraft-stats.png" />
 </p>
 
 <p align="center">
@@ -10,3 +10,4 @@ Check Those Stat My bro
 </p>
 
 Test
+![Minecraft stats](https://raw.githubusercontent.com/DiscartGauthier/MinecraftGitProfile/main/exports/minecraft-stats.png)
