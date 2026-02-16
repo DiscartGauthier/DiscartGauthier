@@ -10,4 +10,3 @@ Check Those Stat My bro
 </p>
 
 Test
-![Minecraft stats](https://raw.githubusercontent.com/DiscartGauthier/MinecraftGitProfile/main/exports/minecraft-stats.png)
