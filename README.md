@@ -6,7 +6,7 @@ Check Those Stat My bro
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DiscartGauthier/MinecraftGitMiner/main/dist/miner.svg" width="900" />
+  <img src="https://raw.githubusercontent.com/DiscartGauthier/MinecraftGitMiner/main/exports/miner.svg" width="900" />
 </p>
 
 Test
