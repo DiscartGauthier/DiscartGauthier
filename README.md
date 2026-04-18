@@ -2,7 +2,7 @@
 
 Check Those Stat My bro
 <p align="center">
-  <img width="1920" height="1080" alt="minecraft-stats" src="https://raw.githubusercontent.com/DiscartGauthier/MinecraftGitProfile/main/exports/minecraft-stats.png" />
+  <img width="1920" alt="minecraft-stats" src="https://raw.githubusercontent.com/DiscartGauthier/MinecraftGitProfile/main/exports/minecraft-stats.png" />
 </p>
 
 <p align="center">
